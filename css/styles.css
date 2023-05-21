@@ -1,0 +1,179 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+
+/* Elements */
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+p{}
+
+
+/* Navbar */
+#navbar{
+    margin: 0;
+}
+
+.nav-quote{
+    color:#FFF6BF;
+    font-size: 0.8rem;
+    padding: 0 18px;
+}
+
+/* Main Banner */
+
+.main-banner{
+    position: relative;
+    text-align: center;
+    background-color: #FFF6BF;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main-banner-img{
+    opacity: 40%;
+    height: 100%;
+}
+
+.main-banner-text-container{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+}
+
+.main-banner-text{
+    font-family: cursive;
+    color: #535154;
+    text-shadow: 3px 2px 5px #e9ccff;
+}
+
+/* Itinerary */
+
+#itinerary-section{
+    background-color: #ABD9FF;
+    color: #ffffff;
+    font-family: 'verdana' cursive;
+    text-align: center;
+}
+
+.itinerary-item1{
+    background-color: #B9E9FC;
+    font-family: serif;
+    font-size: 0.8rem;
+    color: #146C94;
+}
+
+.itinerary-item2{
+    background-color: #DAF5FF;
+    font-family: serif;
+    font-size: 0.8rem;
+    color: #146C94;
+}
+
+.img-itinerary{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.script-text{
+    align-self: center;
+}
+
+/* Accommodation */
+
+#accomodation-container{
+    text-align: center;
+    background-color: #ABD9FF;
+    color: #ffffff;
+}
+
+#accomodation-carousel{
+    width: 100%;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image{
+    opacity: 23%;
+}
+
+.carousel-caption > button:hover{
+    /*background-color: #ABD9FF;*/
+    color: #146C94;
+}
+
+/* Flights */
+
+#flight-information{
+    background-color: #FFF6BF;
+    color: #146C94;
+    padding: 2% 4%;
+}
+
+.flights-title{
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+.flights-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 4px;
+}
+
+/* Budget */
+
+#budget-details{
+    padding: 5% 5%;
+    background-color: #2d2e2e;
+    text-align: center;
+}
+
+/* Contact Form */
+
+#contact-container{
+    background-color: #ABD9FF;
+    color: #146C94;
+}
+
+.form-text{
+    font-size: 0.7rem;
+}
+
+.contact-img{
+    height: 200px;
+}
+
+#contact-container{
+    padding: 3% 5%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #FFEBAD;
+    padding-top: 8px;
+    /* color: #040D49; */
+    color: #146C94;
+}
+
