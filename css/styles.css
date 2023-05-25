@@ -1,7 +1,3 @@
-/* build your own custom Bootstrap theme:
-   https://themestr.app
-*/
-
 /* Elements */
 h1{
     font-size: 5rem;
@@ -67,6 +63,12 @@ p{
     color: #ffffff;
     font-family: 'verdana' cursive;
     text-align: center;
+}
+
+.clipped-img{
+    width: 550px;
+    height: auto;
+    clip-path: 500px 420px;
 }
 
 .itinerary-item1{
