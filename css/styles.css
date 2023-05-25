@@ -33,13 +33,21 @@ p{
 /* Navbar */
 #navbar{
     margin: 0;
+    padding: 2px 8px;
+}
+
+.navbar-brand{
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-quote{
     color:#FFF6BF;
     font-size: 0.8rem;
-    padding-left: 18px;
-    justify-content: right;
+    padding-right: 18px;
+    padding-top: 8px;
+    justify-content: center;
+    text-align: right;
 }
 
 /* Main Banner */
@@ -177,9 +185,11 @@ p{
 /* Budget */
 
 #budget-details{
-    padding: 5% 5%;
+    padding: 3% 3%;
     background-color: #2d2e2e;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contact Form */
