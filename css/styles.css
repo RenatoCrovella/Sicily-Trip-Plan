@@ -39,6 +39,8 @@ p{
 .navbar-brand{
     justify-content: center;
     align-items: center;
+    width: 40px;
+    max-width: 8.333%;
 }
 
 .nav-quote{
@@ -220,3 +222,48 @@ p{
     color: #146C94;
 }
 
+/*
+------------------------------------------ ENDLESS SUMMER VACATION PAGE ---------------------------------------------------
+*/
+
+#esv-about-section{
+    background-color: #ABD9FF;
+    color: #ffffff;
+    font-family: 'verdana' cursive;
+    text-align: center;
+}
+
+#esv-about{
+    padding: 8px 6px;
+    color: #2d2e2e;
+}
+
+#esv-about > .row > .col > p {
+    text-align: left;
+}
+
+.esv-img{
+    background-color: white;
+    display: inline-block;
+    margin: 30px 45px 30px;
+    padding: 15px 15px 85px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+}
+
+.esv-img img{
+    display: block;
+    width: 250px;
+}
+
+#esv-playlist{
+    background-color: #535154;
+}
